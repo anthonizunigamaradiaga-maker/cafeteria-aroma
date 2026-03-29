@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Cafetería Aroma</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f1ea;
+        }
+
+        header {
+            background-color: #6b4f4f;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #3e2723;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #d7ccc8;
+        }
+
+        .hero {
+            background-image: url('https://images.unsplash.com/photo-1509042239860-f550ce710b93');
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 2em;
+            text-shadow: 2px 2px 5px black;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            width: 250px;
+            margin: 15px;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #3e2723;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Cafetería Aroma ☕</h1>
+    <p>El mejor café de la ciudad</p>
+</header>
+
+<nav>
+    <a href="#">Inicio</a>
+    <a href="#menu">Menú</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<section class="hero">
+    Disfruta tu momento con café
+</section>
+
+<div class="container">
+    <h2 id="menu">Nuestro Menú</h2>
+    <div class="menu">
+        
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348">
+            <h3>Capuccino</h3>
+            <p>L 45.00</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085">
+            <h3>Latte</h3>
+            <p>L 50.00</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93">
+            <h3>Espresso</h3>
+            <p>L 35.00</p>
+        </div>
+
+    </div>
+
+    <h2 id="contacto">Contacto</h2>
+    <p>📍 Ubicación: Tegucigalpa, Honduras</p>
+    <p>📞 Teléfono: +504 9999-9999</p>
+    <p>⏰ Horario: 7:00 AM - 8:00 PM</p>
+</div>
+
+<footer>
+    <p>&copy; 2026 Cafetería Aroma - Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
